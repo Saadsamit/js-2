@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- google font section start -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Playfair+Display:wght@900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- google font section end  -->
+    <!-- Fontawesome Css Link start -->
+    <link rel="stylesheet" href="css/fontawesome.min.css" />
+    <!-- Fontawesome Css Link end -->
+    <!-- main css section start -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- main css section end  -->
+  </head>
+  <body>
+    <nav>
+      <div class="container">
+        <div class="row top_menu">
+          <div class="logo"><img src="img/logo.png" alt="logo" /></div>
+          <div class="menu">
+            <ul class="row">
+              <li><a href="#">home</a></li>
+              <li><a href="#">about me</a></li>
+              <li><a href="#">services</a></li>
+              <li><a href="#">contact me</a></li>
+              <li><a href="#">skills</a></li>
+              <li><i class="fa-solid fa-bars" id="menu_toggle"></i></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div id="sidebar" class="">
+      <ul>
+        <li><img src="img/logo.png" alt=""></li>
+        <li><a href="#">home</a></li>
+        <li><a href="#">about me</a></li>
+        <li><a href="#">services</a></li>
+        <li><a href="#">contact me</a></li>
+        <li><a href="#">skills</a></li>
+      </ul>
+    </div>
+    <!-- contact section start -->
+    <section id="contact">
+      <div class="container">
+        <div class="row">
+          <form action="">
+            <div class="email">
+              <input type="email" placeholder="enter your email" />
+            </div>
+            <div class="password">
+              <input
+                type="password"
+                placeholder="enter your password"
+                id="password"
+              />
+              <i class="fa-solid fa-eye-slash" id="password_eye"></i>
+            </div>
+            <div class="row submit_button">
+              <button type="submit" class="row">log in</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- contact section end  -->
+    <!-- js section start -->
+    <script src="js/app.js"></script>
+    <!-- js section end  -->
+  </body>
+</html>
